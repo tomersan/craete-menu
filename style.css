@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    background-color: #eee;
+}
+
+.container{
+    width:98%;
+    max-width:1200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+}
+.navigation{
+    width:50%;
+}
+
+.navigation ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation ul a{
+    font-size: 14px;
+}
